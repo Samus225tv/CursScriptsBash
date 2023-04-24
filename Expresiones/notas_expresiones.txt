@@ -1,0 +1,24 @@
+[[ expresion ]] Importante dejar espacios en blanco al principio y al final para que las expresiones funcionen
+
+Expresión verdadera = 0
+Expresión falsa = 1
+
+Si ponemos un signo de ! delante de una expresión esta significara lo contrario
+
+Si su nombre es Samuel = 0 (Si es Samuel = 0)
+Si su nombre es Samuel != 0 (Si no es samuel = 0)
+
+Utilizaciones: 
+
+	A= 3
+	B= 2
+
+
+-eq (equal) [[ A -eq B ]] --> F
+
+-ne (not equal) [[ A -ne B ]] --> V
+
+-lt (less than) [[ A -lt B ]] --> F
+
+-gt (greater than) [[ A -gt B ]] --> V
+
