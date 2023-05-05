@@ -1,0 +1,20 @@
+0  1  2
+12 45 98
+             1
+SUMA=0
+I=12
+SUMA= SUMA + I
+   SUMA= 0 + 12 = 12
+
+             2
+SUMA=12
+I=45
+SUMA= SUMA +I = 12 + 45 = 57
+SUMA= 57
+
+             3
+
+SUMA= 57
+I= 98
+SUMA= 57 + 98
+SUMA= 155
