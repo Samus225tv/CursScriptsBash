@@ -1,6 +1,11 @@
 #!/bin/bash
 
+#Genera un nombre aleatori entre 1 i 10:
 NUMERO=$(( ( RANDOM % 10 )  + 1 ))
+
+########################################################
+# Escriu el teu codi aqui
+########################################################
 VIDES=3
 while [ ${VIDES} -ne 0 ]
 do
@@ -25,6 +30,8 @@ do
 done
 
 
+########################################################
+# Fi del teu codi
+########################################################
 
-
-echo "El nombre que havies d'adivinar era: $NUMERO"
+echo "Has perdut, el nombre que havies d'adivinar era: $NUMERO"
