@@ -42,3 +42,5 @@ echo "La mitjana dels números ${SUMA} / ${NUMEROS_PER_GENERAR} = $(($MITJANA / 
 #MITJANA AMB BC
 MITJANA=$(echo "scale=3; ${SUMA}/${NUMEROS_PER_GENERAR}" | bc)
 echo "MITJANA=${MITJANA}"
+
+/home/samuel/bot_telegram/telegram_msg.sh "MITJANA: ${MITJANA}"
