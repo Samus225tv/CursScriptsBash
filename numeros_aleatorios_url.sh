@@ -40,3 +40,5 @@ MITJANA=$((($SUMA*100)/$NUMEROS_PER_GENERAR))
 echo "La mitjana dels números ${SUMA} / ${NUMEROS_PER_GENERAR} = $(($MITJANA / 100)).$(($MITJANA % 100))"
 
 #MITJANA AMB BC
+MITJANA=$(echo "scale=3; ${SUMA}/${NUMEROS_PER_GENERAR}" | bc)
+echo "MITJANA=${MITJANA}"
