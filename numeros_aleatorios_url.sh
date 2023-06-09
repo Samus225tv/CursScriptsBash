@@ -44,3 +44,8 @@ MITJANA=$(echo "scale=3; ${SUMA}/${NUMEROS_PER_GENERAR}" | bc)
 echo "MITJANA=${MITJANA}"
 
 /home/samuel/bot_telegram/telegram_msg.sh "MITJANA: ${MITJANA}"
+
+#Para hacer que te envie este script cada Minuto:
+# Poner crontab -e en un terminal
+# Bajar hasta abajo y escribir:
+# */1 * * * * /home/samuel/CursBash/numeros_aleatorios_url.sh
