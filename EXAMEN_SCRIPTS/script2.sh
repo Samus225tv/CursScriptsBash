@@ -22,11 +22,12 @@ then
     #El script ens ha de demanar que introduim el nostre nom i guardar-lo en la variable NOM
     read -p "Introdueix el teu Nom: " NOM   
     
-    EDAT=(( $(date+%D) - ${ANY_NAIXEMENT} ))
+    EDAT=(( $(date +%D) - ${ANY_NAIXEMENT} ))
     #El script ha de donar un missatge per pantalla del tipus "GUILLEM tens 47 anys" (per exemple)
     echo ${NOM} ${ANY_NAIXEMENT}
 
 fi
 
 #El script ha de donar un missatge per pantalla del tipus "GUILLEM tens 47 anys" (per exemple)
-echo ${NOM} ${EDAT}
+
+echo "${NOM} tens ${EDAT} anys."
