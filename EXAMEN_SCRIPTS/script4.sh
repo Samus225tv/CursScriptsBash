@@ -16,7 +16,7 @@ fi
 # Mostra un missatge de benvinguda a l'examen d'scripts que indiqui l'usuari, la data i hora. Exemple:
 if [[ ${UID} -eq 0 ]]
 then
-    echo "Benvingut/da a l'examen d'scripts, jo sóc en/na $(users). Avui és dia $(date) i són les $(date)"
+    echo "Benvingut/da a l'examen d'scripts, jo sóc en/na $(users). Avui és dia $(date +%D) i són les $(date +%R)h."
 fi
 # Benvingut/da a l'examen d'scripts, jo sóc en/na xavi. Avui és dia 11/06/2021 i són les 15:00h.
 
